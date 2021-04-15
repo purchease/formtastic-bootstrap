@@ -24,13 +24,13 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
 
-  s.add_dependency('formtastic', ["~> 2.2"])
+  s.add_dependency('formtastic', ["~> 3.0"])
 
   s.add_development_dependency('ammeter', [">= 0"])
   s.add_development_dependency('bundler', ["~> 1.2"])
   s.add_development_dependency('rake', ["< 1.0"])
-  s.add_development_dependency('rcov', ["< 1.0"])
   s.add_development_dependency('rspec-rails', ["~> 2.8.0"])
   s.add_development_dependency('rspec_tag_matchers', [">= 0"])
+  s.add_development_dependency('test-unit')
   s.add_development_dependency('tzinfo')
 end
